@@ -1,5 +1,8 @@
 # GAS-transpose
-Transposes data from one sheet and puts it in another.
+
+To be used with Google Spreadsheets with Google Apps Script
+
+Transposes data from one sheet and puts it in another, allowing the user to choose whether they want to handle an entire sheet or choose between exclusive transposition of either headers or the data itself.
 The script doesn't account for sheets that do not exist nor for incompatible data sets.
 
 @param {string} sourceSheet - source sheet name
